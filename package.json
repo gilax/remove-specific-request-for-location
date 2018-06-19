@@ -1,6 +1,6 @@
 {
   "name": "remove-specific-request-for-location",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "allow you to remove a GES request from Primo VE",
   "main": "index.js",
   "scripts": {
