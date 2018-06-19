@@ -1,0 +1,14 @@
+{
+  "name": "remove-specific-request-for-location",
+  "version": "1.0.2",
+  "description": "allow you to remove a GES request from Primo VE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primo-studio"
+  ],
+  "author": "Gilad Wolf",
+  "license": "ISC"
+}
