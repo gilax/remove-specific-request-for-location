@@ -1,0 +1,18 @@
+{
+    "face": "https://avatars2.githubusercontent.com/u/19833254?s=400&v=4",
+    "notes": "Allow you to remove a GES request from Primo VE but not on specific cases",
+    "who": "Gilad Wolf",
+    "what": "remove specific request except for location",
+    "linkGit": "https://github.com/gilax/remove-specific-request-for-location",
+    "npmid": "remove-specific-request-for-location",
+    "hook": "prm-service-links-after",
+    "version": "1.0.4",
+    "config": {
+        "form":
+            [
+                {"key":"libraryCode", "templateOptions":{"label": "library code for appearance"}},
+                {"key":"subLocationCode", "templateOptions":{"label": "location code for appearance"}},
+                {"key":"displayLabel", "templateOptions":{"label": "display link"}}
+            ]
+    }
+}
