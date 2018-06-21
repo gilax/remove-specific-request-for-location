@@ -20,8 +20,8 @@ app.controller('removeSpecificRequestForLocationController',
             function calculateRemove(){
                 let libraryCodes = addonParameters[0].libraryCode;
                 let subLocationCodes = addonParameters[0].subLocationCode;
-                let libraryCode = libraryCodes.split(/\s*?,\s*?/);
-                let subLocationCode = subLocationCodes.split(/\s*?,\s*?/);
+                let libraryCode = libraryCodes ? libraryCodes.split(/\s*?,\s*?/) : [];
+                let subLocationCode = subLocationCodes ? subLocationCodes.split(/\s*?,\s*?/) : [];
                 if ((libraryCode.indexOf(vm.item.delivery.bestlocation.libraryCode) === -1
                     || subLocationCode.indexOf(vm.item.delivery.bestlocation.subLocation) === -1)
                     && recordLinks2.length > 0) {
